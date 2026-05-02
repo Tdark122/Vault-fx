@@ -406,20 +406,20 @@ svg.csvg{width:100%;height:100%;}
 
     <!-- Deposit -->
     <div class="dep-card">
-      <div class="dep-hd">Deposit Funds <span class="dep-badge">USDT</span></div>
+      <div class="dep-hd">Deposit Funds <span class="dep-badge">BTC</span></div>
       <div class="net-tabs">
         
-        <div class="ntab" onclick="setNet(this)">ERC20</div>
+        <div class="ntab" onclick="setNet(this)"></div>
       
       </div>
       <div class="wallet-box" onclick="copyAddr()">
-        <div class="wallet-lbl">Your USDT Deposit Address (tap to copy)</div>
+        <div class="wallet-lbl">bc1q0hg63gq5a6z4g8hk89f3m0vr8lwuj87vwc6xkp</div>
         <div class="wallet-addr" id="w-addr">YOUR_USDT_WALLET_ADDRESS_HERE</div>
       </div>
       <button class="copy-btn" onclick="copyAddr()">⧉ Copy Wallet Address</button>
       <div class="fg">
-        <label class="lbl">Amount (USDT)</label>
-        <input class="inp" type="number" id="dep-amt" placeholder="Min. 10 USDT"/>
+        <label class="lbl">Amount (BTC)</label>
+        <input class="inp" type="number" id="dep-amt" placeholder="Min. 0.005 BTC"/>
         <div class="amt-chips">
           <div class="achip" onclick="setAmt(100)">$100</div>
           <div class="achip" onclick="setAmt(500)">$500</div>
